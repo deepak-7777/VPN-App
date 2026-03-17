@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Brand Colors -->
+    <color name="colorPrimary">#FF6B35</color>
+    <color name="colorPrimaryDark">#E55A22</color>
+    <color name="colorPrimaryLight">#FF8C5A</color>
+    <color name="colorAccent">#1A73E8</color>
+
+    <!-- Background Colors -->
+    <color name="colorBackground">#0D1117</color>
+    <color name="colorSurface">#161B22</color>
+    <color name="colorSurfaceVariant">#1C2128</color>
+    <color name="colorCardBackground">#1E2432</color>
+
+    <!-- Text Colors -->
+    <color name="colorTextPrimary">#FFFFFF</color>
+    <color name="colorTextSecondary">#8B949E</color>
+    <color name="colorTextHint">#484F58</color>
+    <color name="colorTextOnPrimary">#FFFFFF</color>
+
+    <!-- Status Colors -->
+    <color name="colorConnected">#3FB950</color>
+    <color name="colorConnecting">#F0A500</color>
+    <color name="colorDisconnected">#F85149</color>
+    <color name="colorDisconnectedDim">#6E3634</color>
+
+    <!-- Divider / Border -->
+    <color name="colorDivider">#21262D</color>
+    <color name="colorBorder">#30363D</color>
+
+    <!-- Gradient Colors -->
+    <color name="colorGradientStart">#FF6B35</color>
+    <color name="colorGradientEnd">#FF4500</color>
+
+    <!-- Connect Button -->
+    <color name="colorConnectButton">#FF6B35</color>
+    <color name="colorConnectButtonPressed">#E55A22</color>
+    <color name="colorDisconnectButton">#F85149</color>
+
+    <!-- Free Badge -->
+    <color name="colorFreeBadge">#3FB950</color>
+    <color name="colorFreeBadgeText">#FFFFFF</color>
+
+    <!-- Search Bar -->
+    <color name="colorSearchBackground">#1C2128</color>
+
+    <!-- Ripple -->
+    <color name="colorRipple">#33FF6B35</color>
+
+    <!-- Overlay -->
+    <color name="colorOverlay">#80000000</color>
+
+    <!-- White with alpha variants -->
+    <color name="white">#FFFFFF</color>
+    <color name="white_80">#CCFFFFFF</color>
+    <color name="white_60">#99FFFFFF</color>
+    <color name="white_20">#33FFFFFF</color>
+    <color name="transparent">#00000000</color>
+</resources>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Info -->
+    <string name="app_name">SecureVPN</string>
+    <string name="app_tagline">Fast. Private. Free.</string>
+    <string name="app_version_prefix">Version</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_servers">Servers</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Home Screen -->
+    <string name="btn_connect">Connect</string>
+    <string name="btn_disconnect">Disconnect</string>
+    <string name="btn_connecting">Connecting…</string>
+    <string name="status_disconnected">Not Protected</string>
+    <string name="status_connecting">Establishing Tunnel…</string>
+    <string name="status_connected">You\'re Protected</string>
+    <string name="label_selected_server">Selected Server</string>
+    <string name="label_change_server">Change</string>
+    <string name="label_session_time">Session Time</string>
+    <string name="label_download">Download</string>
+    <string name="label_upload">Upload</string>
+    <string name="label_current_ip">Your IP</string>
+    <string name="label_ip_placeholder">—</string>
+    <string name="label_speed_placeholder">0 KB/s</string>
+    <string name="label_time_placeholder">00:00:00</string>
+    <string name="label_free">FREE</string>
+    <string name="label_ping_ms">%d ms</string>
+    <string name="label_guest_mode">Guest Mode</string>
+
+    <!-- Server List -->
+    <string name="title_servers">Server List</string>
+    <string name="hint_search_servers">Search by country or city…</string>
+    <string name="label_fastest_auto">Fastest Server (Auto)</string>
+    <string name="label_recommended">Recommended</string>
+    <string name="label_all_locations">All Locations</string>
+    <string name="label_connected_check">Connected</string>
+    <string name="label_select_server">Tap to select</string>
+    <string name="label_no_servers">No servers found</string>
+    <string name="label_loading_servers">Loading servers…</string>
+
+    <!-- Settings -->
+    <string name="title_settings">Settings</string>
+    <string name="settings_privacy_policy">Privacy Policy</string>
+    <string name="settings_terms">Terms of Service</string>
+    <string name="settings_share_app">Share App</string>
+    <string name="settings_rate_us">Rate Us</string>
+    <string name="settings_contact_us">Contact Us</string>
+    <string name="settings_about">About SecureVPN</string>
+    <string name="settings_app_version">App Version</string>
+    <string name="settings_section_general">General</string>
+    <string name="settings_section_legal">Legal</string>
+    <string name="settings_section_support">Support</string>
+    <string name="settings_section_coming_soon">Coming Soon</string>
+    <string name="settings_premium">Premium (Coming Soon)</string>
+    <string name="settings_login">Sign In (Coming Soon)</string>
+    <string name="settings_auto_connect">Auto-Connect on Startup</string>
+    <string name="settings_kill_switch">Kill Switch (Coming Soon)</string>
+    <string name="settings_protocol">Protocol (Coming Soon)</string>
+
+    <!-- Privacy Policy Screen -->
+    <string name="title_privacy_policy">Privacy Policy</string>
+    <!-- TODO: Replace this URL with your actual hosted privacy policy URL -->
+    <string name="privacy_policy_url">https://your-domain.com/privacy-policy</string>
+    <string name="privacy_loading">Loading Privacy Policy…</string>
+    <string name="privacy_load_error">Failed to load. Tap to retry.</string>
+
+    <!-- About Screen -->
+    <string name="title_about">About SecureVPN</string>
+    <string name="about_description">SecureVPN protects your privacy online by creating an encrypted tunnel for your internet traffic. Built with privacy-first principles.</string>
+    <string name="about_developer">Developed by Deepak </string>
+    <string name="about_contact_email">support@your-domain.com</string>
+    <string name="about_website">https://your-domain.com</string>
+    <string name="about_open_source_notice">This app uses open-source libraries. See licenses for details.</string>
+
+    <!-- Errors & Messages -->
+    <string name="error_network">No internet connection. Please check your network.</string>
+    <string name="error_server_fetch">Could not load servers. Please try again.</string>
+    <string name="error_connect_failed">Connection failed. Please try another server.</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="msg_select_server_first">Please select a server first.</string>
+    <string name="msg_already_connected">Already connected to this server.</string>
+    <string name="msg_disconnected_success">Disconnected successfully.</string>
+    <string name="msg_retry">Retry</string>
+    <string name="msg_ok">OK</string>
+    <string name="msg_cancel">Cancel</string>
+
+    <!-- Share App -->
+    <string name="share_subject">Try SecureVPN — Fast &amp; Free VPN</string>
+    <string name="share_body">Stay private online with SecureVPN! Download it free: https://play.google.com/store/apps/details?id=com.securevpn.app</string>
+
+    <!-- Splash -->
+    <string name="splash_tagline">Connecting to a safer internet…</string>
+
+    <!-- Accessibility -->
+    <string name="cd_connect_button">Connect or disconnect VPN</string>
+    <string name="cd_server_flag">Server country flag</string>
+    <string name="cd_signal_strength">Signal strength indicator</string>
+    <string name="cd_back_button">Go back</string>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Spacing -->
+    <dimen name="spacing_xxs">4dp</dimen>
+    <dimen name="spacing_xs">8dp</dimen>
+    <dimen name="spacing_sm">12dp</dimen>
+    <dimen name="spacing_md">16dp</dimen>
+    <dimen name="spacing_lg">24dp</dimen>
+    <dimen name="spacing_xl">32dp</dimen>
+    <dimen name="spacing_xxl">48dp</dimen>
+
+    <!-- Card -->
+    <dimen name="card_corner_radius">16dp</dimen>
+    <dimen name="card_corner_radius_small">12dp</dimen>
+    <dimen name="card_padding">16dp</dimen>
+    <dimen name="card_margin_horizontal">16dp</dimen>
+    <dimen name="card_margin_vertical">8dp</dimen>
+
+    <!-- Connect Button -->
+    <dimen name="connect_button_size">160dp</dimen>
+    <dimen name="connect_button_inner_size">140dp</dimen>
+    <dimen name="connect_button_icon_size">64dp</dimen>
+
+    <!-- Text Sizes -->
+    <dimen name="text_size_xs">10sp</dimen>
+    <dimen name="text_size_sm">12sp</dimen>
+    <dimen name="text_size_md">14sp</dimen>
+    <dimen name="text_size_lg">16sp</dimen>
+    <dimen name="text_size_xl">18sp</dimen>
+    <dimen name="text_size_xxl">22sp</dimen>
+    <dimen name="text_size_title">26sp</dimen>
+
+    <!-- Toolbar -->
+    <dimen name="toolbar_height">56dp</dimen>
+
+    <!-- Bottom Nav -->
+    <dimen name="bottom_nav_height">64dp</dimen>
+
+    <!-- Icon Sizes -->
+    <dimen name="icon_size_sm">16dp</dimen>
+    <dimen name="icon_size_md">24dp</dimen>
+    <dimen name="icon_size_lg">32dp</dimen>
+
+    <!-- Server List -->
+    <dimen name="server_item_height">72dp</dimen>
+    <dimen name="flag_size">32dp</dimen>
+    <dimen name="badge_corner_radius">4dp</dimen>
+    <dimen name="badge_padding_horizontal">6dp</dimen>
+    <dimen name="badge_padding_vertical">2dp</dimen>
+
+    <!-- Search -->
+    <dimen name="search_corner_radius">12dp</dimen>
+
+    <!-- Button -->
+    <dimen name="button_corner_radius">12dp</dimen>
+    <dimen name="button_height">52dp</dimen>
+
+    <!-- Status Dot -->
+    <dimen name="status_dot_size">10dp</dimen>
+
+    <!-- Settings item -->
+    <dimen name="settings_item_height">56dp</dimen>
+
+    <!-- Ad Banner placeholder -->
+    <dimen name="ad_banner_height">60dp</dimen>
+
+    <!-- Elevation -->
+    <dimen name="elevation_card">0dp</dimen>
+    <dimen name="elevation_appbar">4dp</dimen>
+    <dimen name="elevation_bottom_nav">8dp</dimen>
+</resources>

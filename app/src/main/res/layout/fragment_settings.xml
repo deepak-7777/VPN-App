@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground">
+
+    <!-- Top bar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@color/colorSurface"
+        android:paddingStart="@dimen/spacing_md"
+        android:paddingEnd="@dimen/spacing_md">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_settings"
+            android:textColor="@color/colorTextPrimary"
+            android:textSize="@dimen/text_size_xl"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorDivider" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:overScrollMode="never">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/spacing_xl">
+
+            <!-- Section: General -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/settings_section_general"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text_size_sm"
+                android:textStyle="bold"
+                android:letterSpacing="0.08"
+                android:paddingStart="@dimen/spacing_lg"
+                android:paddingEnd="@dimen/spacing_lg"
+                android:paddingTop="@dimen/spacing_lg"
+                android:paddingBottom="@dimen/spacing_xs" />
+
+            <!-- Auto Connect toggle -->
+            <LinearLayout
+                android:id="@+id/item_auto_connect"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/settings_item_height"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/spacing_lg"
+                android:paddingEnd="@dimen/spacing_lg"
+                android:background="?attr/selectableItemBackground">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/settings_auto_connect"
+                    android:textColor="@color/colorTextPrimary"
+                    android:textSize="@dimen/text_size_md" />
+
+                <com.google.android.material.switchmaterial.SwitchMaterial
+                    android:id="@+id/switch_auto_connect"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false" />
+
+            </LinearLayout>
+
+            <View android:layout_width="match_parent" android:layout_height="1dp"
+                android:background="@color/colorDivider" android:layout_marginStart="@dimen/spacing_lg" />
+
+            <!-- Section: Legal -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/settings_section_legal"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text_size_sm"
+                android:textStyle="bold"
+                android:letterSpacing="0.08"
+                android:paddingStart="@dimen/spacing_lg"
+                android:paddingEnd="@dimen/spacing_lg"
+                android:paddingTop="@dimen/spacing_lg"
+                android:paddingBottom="@dimen/spacing_xs" />
+
+            <include layout="@layout/item_settings_row"
+                android:id="@+id/item_privacy_policy" />
+            <View android:layout_width="match_parent" android:layout_height="1dp"
+                android:background="@color/colorDivider" android:layout_marginStart="@dimen/spacing_lg" />
+            <include layout="@layout/item_settings_row"
+                android:id="@+id/item_terms" />
+
+            <View android:layout_width="match_parent" android:layout_height="1dp"
+                android:background="@color/colorDivider" android:layout_marginStart="@dimen/spacing_lg" />
+
+            <!-- Section: Support -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/settings_section_support"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text_size_sm"
+                android:textStyle="bold"
+                android:letterSpacing="0.08"
+                android:paddingStart="@dimen/spacing_lg"
+                android:paddingEnd="@dimen/spacing_lg"
+                android:paddingTop="@dimen/spacing_lg"
+                android:paddingBottom="@dimen/spacing_xs" />
+
+            <include layout="@layout/item_settings_row" android:id="@+id/item_share_app" />
+            <View android:layout_width="match_parent" android:layout_height="1dp"
+                android:background="@color/colorDivider" android:layout_marginStart="@dimen/spacing_lg" />
+            <include layout="@layout/item_settings_row" android:id="@+id/item_rate_us" />
+            <View android:layout_width="match_parent" android:layout_height="1dp"
+                android:background="@color/colorDivider" android:layout_marginStart="@dimen/spacing_lg" />
+            <include layout="@layout/item_settings_row" android:id="@+id/item_contact_us" />
+            <View android:layout_width="match_parent" android:layout_height="1dp"
+                android:background="@color/colorDivider" android:layout_marginStart="@dimen/spacing_lg" />
+            <include layout="@layout/item_settings_row" android:id="@+id/item_about" />
+
+            <View android:layout_width="match_parent" android:layout_height="1dp"
+                android:background="@color/colorDivider" android:layout_marginStart="@dimen/spacing_lg" />
+
+            <!-- App Version row -->
+            <LinearLayout
+                android:id="@+id/item_version"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/settings_item_height"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/spacing_lg"
+                android:paddingEnd="@dimen/spacing_lg">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/settings_app_version"
+                    android:textColor="@color/colorTextSecondary"
+                    android:textSize="@dimen/text_size_md" />
+
+                <TextView
+                    android:id="@+id/tv_version_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1.0.0"
+                    android:textColor="@color/colorTextHint"
+                    android:textSize="@dimen/text_size_sm" />
+
+            </LinearLayout>
+
+            <!-- Section: Coming Soon (disabled) -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/settings_section_coming_soon"
+                android:textColor="@color/colorTextHint"
+                android:textSize="@dimen/text_size_sm"
+                android:textStyle="bold"
+                android:letterSpacing="0.08"
+                android:paddingStart="@dimen/spacing_lg"
+                android:paddingEnd="@dimen/spacing_lg"
+                android:paddingTop="@dimen/spacing_lg"
+                android:paddingBottom="@dimen/spacing_xs" />
+
+            <!-- Kill Switch (disabled) -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/settings_item_height"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/spacing_lg"
+                android:paddingEnd="@dimen/spacing_lg"
+                android:alpha="0.4">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/settings_kill_switch"
+                    android:textColor="@color/colorTextSecondary"
+                    android:textSize="@dimen/text_size_md" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Soon"
+                    android:textColor="@color/colorTextHint"
+                    android:textSize="@dimen/text_size_sm" />
+
+            </LinearLayout>
+
+            <View android:layout_width="match_parent" android:layout_height="1dp"
+                android:background="@color/colorDivider" android:layout_marginStart="@dimen/spacing_lg" />
+
+            <!-- Premium (disabled) -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/settings_item_height"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/spacing_lg"
+                android:paddingEnd="@dimen/spacing_lg"
+                android:alpha="0.4">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/settings_premium"
+                    android:textColor="@color/colorTextSecondary"
+                    android:textSize="@dimen/text_size_md" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Soon"
+                    android:textColor="@color/colorTextHint"
+                    android:textSize="@dimen/text_size_sm" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
