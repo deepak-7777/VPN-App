@@ -1,4 +1,4 @@
-# 🔐 SecureVPN Android App
+# 🔐 VPN Android App
 
 A **production-ready WireGuard-based VPN Android application** built using modern Android architecture and best practices.
 
@@ -8,7 +8,7 @@ This app provides a secure, fast, and user-friendly VPN experience with real-tim
 
 ## 🚀 Features
 
-* 🔒 Secure VPN connection using **WireGuard protocol**
+* 🔒 VPN connection using **WireGuard protocol**
 * 🌍 Multiple server selection (country + city based)
 * ⚡ Fast connect / disconnect functionality
 * 📡 Real-time connection status (Connected / Connecting / Disconnected)
