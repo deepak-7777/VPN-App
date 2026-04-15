@@ -1,0 +1,49 @@
+# Gradle
+.gradle/
+build/
+**/build/
+
+# Local config
+local.properties
+
+# IDE (Android Studio / IntelliJ)
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Keystore (VERY IMPORTANT)
+*.jks
+*.keystore
+
+# Generated files
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Kotlin / Java
+*.class
+*.jar
+*.war
+
+# Firebase / secrets
+google-services.json
+*.env
+
+# NDK
+obj/
+lib/
+
+# Temporary files
+tmp/
+*.tmp
+
+# Android Studio cache
+.gradle/

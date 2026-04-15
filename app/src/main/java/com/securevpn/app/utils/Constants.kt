@@ -17,7 +17,7 @@ object Constants {
     //
     // Production ke liye:
     // const val BASE_URL = "https://your-domain.com/"
-    const val BASE_URL = "http://192.168.1.103:8080/"
+    const val BASE_URL = "http://192.168.1.110:8080/"
     const val CONNECT_TIMEOUT_SECONDS = 30L
     const val READ_TIMEOUT_SECONDS = 30L
     const val WRITE_TIMEOUT_SECONDS = 30L
@@ -34,7 +34,7 @@ object Constants {
     // -----------------------------
     // App Info
     // -----------------------------
-    const val APP_NAME = "SecureVPN"
+    const val APP_NAME = "VPN"
     const val APP_VERSION = "1.0.0"
 
     const val PLAY_STORE_URL =
