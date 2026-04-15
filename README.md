@@ -52,7 +52,11 @@ This app provides a secure, fast, and user-friendly VPN experience with real-tim
 
 ## Screenshots
 
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/871b3a26-f6b7-4992-84ef-f8074c92ce8f" width="150" style="margin: 161px;"/>
+  <img src="https://github.com/user-attachments/assets/40324bfe-3322-4786-964c-a0e8da603599" width="150" style="margin: 161px;"/>
+  <img src="https://github.com/user-attachments/assets/b1c0ca1d-3967-4bee-be6b-80bbb28e770e" width="150" style="margin: 16px;"/>
+</p>
 
 ---
 
