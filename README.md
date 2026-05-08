@@ -202,7 +202,7 @@ VpnService.prepare(context)
 * 🌐 Multi-server load balancing
 * 🔐 Authentication system
 * 💳 Premium subscription support
-* 📊 Usage analytics dashboard
+* 📊 Usage dashboard
 * 🌍 Auto server selection (best latency)
 
 ---
