@@ -10,7 +10,7 @@ This app provides a secure, fast, and user-friendly VPN experience with real-tim
 
 * 🔒 VPN connection using **WireGuard protocol**
 * 🌍 Multiple server selection (country + city based)
-* ⚡ Fast connect / disconnect functionality
+* ⚡ Fast connect / disconnect functionality 
 * 📡 Real-time connection status (Connected / Connecting / Disconnected)
 * ⏱️ Session timer tracking
 * 🌐 Current IP display
